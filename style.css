@@ -27,14 +27,15 @@
   }
 
   body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   h1,
   h2,
   h3,
   h4{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
     padding: 5 rem;
   }
 
@@ -42,6 +43,17 @@
     padding:3rem;
   }
   
+  .presentation{
+    padding-bottom: 3rem;
+  }
+  .c-caption h4{
+    text-align: center;
+  }
+
+  .c-caption p{
+    text-align: center;
+  }
+
   h2{
     padding: 1.5rem;
   }
@@ -49,10 +61,7 @@
     padding: 0.5rem 2rem 0.5rem 2rem;
   }
 
-  .blankets {
-    background:url(./Images/Scooter.jpg) center;
-    height: 80vh;
-  }
+
 
   .topnav a{
     float: right;
@@ -60,13 +69,18 @@
   }
   
   .topnav a:hover {
-    color:orange;
+    color:#0E82C3;
   }
   
   .image-center{
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+  }
+
+  .carousel-image img{
+  
+   
   }
 
   

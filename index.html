@@ -6,27 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&display=swap" rel="stylesheet">
     <title>Persona</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light topnav">
         <div class="container-fluid">
-            <a class = "navbar-brand" href = "#">CSCI 1300 Personas & Storyboarding</a>
-            <div class="collapse navbar-collapse">
+            <a class = "navbar-brand" href = "#">BENHO.ORG</a>
+            <div class="collapse navbar-collapse flex-row-reverse mx-5 px-4">
             <ul class="navbar-nav ml-auto">
-                <li class="navbar-item"><a href="#Introduction" class="nav-link">Introduction</a></li>
-                <li class="navbar-item"><a href="#Observations" class="nav-link">Observations</a></li>
-                <li class="navbar-item"><a href="#Personas" class="nav-link">Personas</a></li>
-                <li class="navbar-item"><a href="#Storyboard" class="nav-link">Storyboard</a></li>
+                <li class="navbar-item mx-3"><a href="#About Me" class="nav-link">About Me</a></li>
+                <li class="navbar-item mx-3"><a href="#Publications" class="nav-link">Publications</a></li>
+                <li class="navbar-item mx-3"><a href="#Media" class="nav-link">Media</a></li>
+                <li class="navbar-item mx-3"><a href="#Contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
         </div>
     </nav> 
 
-    <div class="d-flex flex-column blankets justify-content-center align-items-center mb-5">
-        <h1 class="text-light display-1"> SPIN scooter</h1>
+    <div class="px-5 mx-5">
+    <div class="presentation">
+    <div id="carouselExampleIndicators" class="carousel slide mt-5 mb-3" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active align-items-center" >
+                <div class="d-flex justify-content-center">
+                <img src="Images/ben-ho-columbia.jpg" alt="Image of Prof. Ben Ho smiling at the camera">
+            </div>
+            
+            </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        
     </div>
 
+    <div class="c-caption align-items-center px-5 mx-5">
+        <h4>Article</h4>
+        <p>This is one hell of a How I Work. Economist Ben Ho studies things like apologies, trust, and inequality from an economic perspective—the kind of approach that makes a good NPR story. He’s blisteringly hard-working, he gets excited about workflows and old-school text apps and portable keyboards, and he’s written his own applications. </p>
+
+    </div>
+    </div>
+    
+
+    
     <div id="Introduction" class="container-fluid bg-white text-left mb-5 px-5">
         <h2 class = "text-dark display-2"> Introduction</h2>
         <p>I was always curious about the electric scooters in Providence. They are everywhere, but I rarely see people on them. For this assignment, I will take a deep dive to see who these mysterious people are, and how they interact with the scooters.</p>
@@ -43,6 +84,7 @@
 
     </div>
 
+    
     <div id="Observations" class="container-fluid py-5 px-5">
         <h2 class = "text-dark display-2"> Observations</h2>
         <p>Among the three people I interviewed, all of them are happy with their experience with SPIN. Despite their different uses of the service, they all mentioned the convenience the virtual and physical interface offers. They were all able to quickly learn how to use RIDE and make it part of their lives.</p>
@@ -244,6 +286,7 @@
             </div>
         </div>
     </div>
+</div>
 
     <p>The image on the cover page was taken off of the internet, from the url https://techcrunch.com/2019/01/30/sf-denies-spins-appeal-to-operate-electric-scooters-but-offers-some-hope/</p>
 </body>
