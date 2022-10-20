@@ -45,7 +45,21 @@
   
   .presentation{
     padding-bottom: 3rem;
+    padding-top: 3rem;
+    text-align: center;
   }
+
+  .presentation-text{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    text-align: center;
+  }
+  
+  .presentation a{
+    font-size: larger;
+    font-weight: 400;
+  }
+
   .c-caption h4{
     text-align: center;
   }
@@ -62,7 +76,13 @@
   }
 
 
+  #Assignment a{
+    text-align: center;
+  }
 
+  .presentation{
+    background-color: rgba(146, 144, 144, 0.568);
+  }
   .topnav a{
     float: right;
     padding: 14px 16px;
@@ -78,9 +98,141 @@
     margin-top: 3rem;
   }
 
-  .carousel-image img{
-  
-   
+  @media  screen and (max-width: 3000px) and (min-width: 860px){
+  .publications .container{
+    display: flex;
+  align-items: center;
+  justify-content: center
   }
 
+  .publications img{
+    width: 10rem;
+    height: 15rem; 
+  }
+
+  .publications .image {
+    flex-basis: 200%;
+    margin-bottom: 6rem;
+    text-align: center;
+  }
   
+  .image button{
+    margin: 2rem;
+  }
+
+  .publications .text {
+    padding-left: 20px;
+  }
+}
+
+
+  @media screen and (max-width: 860px){
+    .publications .container{
+    align-items: center;
+    justify-content: center
+    }
+
+    .image{
+      text-align: center;
+    }
+
+    .image button{
+      margin: 2rem;
+    }
+    
+    
+}
+
+
+#Review h3,p{
+  text-align: center;
+}
+
+button{
+  background-color: #0E82C3;
+  color: white;
+  border:none;
+  border-radius: 15px;
+  text-align: center;
+  width: 6rem;
+  height: 7 rem;
+  padding: 2 rem;
+}
+
+button:hover{
+  background-color: white;
+  border: 1px solid #0E82C3;
+  color:#0E82C3;
+}
+
+.button{
+  text-align: center;
+}
+
+#Media h3{
+  text-align: center;
+}
+
+
+
+
+.contact * {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact button{
+  width:8rem;
+  text-align: center;
+
+}
+
+.contact-text{
+  text-align: right;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
