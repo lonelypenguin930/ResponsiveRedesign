@@ -159,6 +159,7 @@
 
     .image{
       text-align: center;
+      align-items: center;
     }
 
     .image button{
