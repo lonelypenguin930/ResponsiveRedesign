@@ -30,31 +30,9 @@
     font-family: 'Josefin Sans', sans-serif;
   }
 
-  h1,
-  h2,
-  h3,
-  h4{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bolder;
-    padding: 5 rem;
-  }
-
-  h3{
-    padding:3rem;
-  }
   
-  .presentation{
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    text-align: center;
-  }
 
-  .presentation-text{
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    text-align: center;
-    align-items: center;
-  }
+ 
 
   .presentation-text img{
     margin-bottom: 1rem;
@@ -113,7 +91,39 @@
     margin-top: 3rem;
   }
 
-  @media  screen and (max-width: 3000px) and (min-width: 860px){
+  @media  screen and (min-width: 860px){
+
+
+    h1,
+    h2,
+    h3,
+    h4{
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: bolder;
+      padding: 5 rem;
+    }
+  
+    h3{
+      padding:3rem;
+    }
+    
+    .presentation{
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+      text-align: center;
+    }
+  
+    .presentation-text{
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+      text-align: center;
+      align-items: center;
+    }
+
+    .body-content{
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
   .publications .container{
     display: flex;
   align-items: center;
@@ -154,8 +164,37 @@
     .image button{
       margin: 2rem;
     }
+
+    .body-content{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
     
+    h1,
+    h2,
+    h3,
+    h4{
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: bolder;
+      padding: 2 rem;
+    }
+  
+    h3{
+      padding:1rem;
+    }
     
+    .presentation{
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+      text-align: center;
+    }
+  
+    .presentation-text{
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+      text-align: center;
+      align-items: center;
+    }
 }
 
 
